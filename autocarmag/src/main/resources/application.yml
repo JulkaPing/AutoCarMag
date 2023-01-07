@@ -1,0 +1,9 @@
+server:
+  port: 9095
+  servlet:
+    context-path: /autocarmag
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
