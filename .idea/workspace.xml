@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="881ee460-adec-47d7-a135-4a8dfa29a0c4" name="Changes" comment="Test Github">
-      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/config/DataBaseConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/config/DataBaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/controller/AuthController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,7 +103,7 @@
       <workItem from="1673107555688" duration="1251000" />
       <workItem from="1673113920822" duration="5265000" />
       <workItem from="1673119224284" duration="14000" />
-      <workItem from="1673119583875" duration="424000" />
+      <workItem from="1673119583875" duration="766000" />
     </task>
     <task id="LOCAL-00001" summary="Test Github">
       <created>1673119070268</created>
@@ -112,7 +119,28 @@
       <option name="project" value="LOCAL" />
       <updated>1673119593361</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test Github">
+      <created>1673120204874</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673120204874</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Test Github">
+      <created>1673120254905</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673120254905</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Test Github">
+      <created>1673120302578</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673120302578</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
