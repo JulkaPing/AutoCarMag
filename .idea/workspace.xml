@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="881ee460-adec-47d7-a135-4a8dfa29a0c4" name="Changes" comment="Test Github">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/config/DataBaseConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/config/DataBaseConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Julka/IdeaProjects/AutoCarMag",
+    "last_opened_file_path": "C:/Users/Julka/IdeaProjects/dreamjob-master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -96,6 +96,7 @@
       <workItem from="1673107555688" duration="1251000" />
       <workItem from="1673113920822" duration="5265000" />
       <workItem from="1673119224284" duration="14000" />
+      <workItem from="1673119583875" duration="424000" />
     </task>
     <task id="LOCAL-00001" summary="Test Github">
       <created>1673119070268</created>
@@ -104,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673119070268</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test Github">
+      <created>1673119593361</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673119593361</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
