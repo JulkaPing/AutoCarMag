@@ -5,7 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="881ee460-adec-47d7-a135-4a8dfa29a0c4" name="Changes" comment="Test Github">
-      <change afterPath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/dto/AddPostDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/dto/InfoCarDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/dto/PostInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/dto/WarningDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/dto/enums/SellStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/dto/enums/TransmissionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/model/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/model/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/service/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/checkstyle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/AutoCarMagApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/AutoCarMagApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/config/DataBaseConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/config/DataBaseConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/config/LiquibaseConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/config/LiquibaseConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/controller/AutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/controller/AutoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/dto/InfoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/dto/InfoDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/dto/SignInDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/dto/SignInDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/dto/SignUpDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/dto/SignUpDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/model/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/model/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/repository/AutoRepositoryDevImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/repository/PostRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/repository/interfaces/AutoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/repository/interfaces/PostRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/repository/interfaces/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/service/AutoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/java/ru/ecosystem/aurtocarmag/app/util/AutoCarUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ecosystem/aurtocarmag/app/util/AutoCarUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/resources/templates/add-post-auto.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/add-post-auto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/resources/templates/autos.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/autos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/resources/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/resources/templates/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/resources/templates/update-auto.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/update-auto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/main/resources/templates/warning.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/warning.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autocarmag/src/test/java/ru/AutoCarMagApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/PostCarMagApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/ecosystem/aurtocarmag/app/AutoCarMagApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/ecosystem/aurtocarmag/app/AutoCarMagApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/ecosystem/aurtocarmag/app/config/DataBaseConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/ecosystem/aurtocarmag/app/config/DataBaseConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/ecosystem/aurtocarmag/app/controller/AutoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/ecosystem/aurtocarmag/app/controller/AutoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/ecosystem/aurtocarmag/app/model/Auto$AutoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/ecosystem/aurtocarmag/app/model/Auto$AutoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/ecosystem/aurtocarmag/app/model/Auto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/ecosystem/aurtocarmag/app/model/Auto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/ecosystem/aurtocarmag/app/repository/AutoRepositoryDevImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/ecosystem/aurtocarmag/app/repository/AutoRepositoryDevImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/ecosystem/aurtocarmag/app/repository/interfaces/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/ecosystem/aurtocarmag/app/repository/interfaces/Repository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/ecosystem/aurtocarmag/app/service/AutoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/ecosystem/aurtocarmag/app/service/AutoService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +69,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -49,19 +104,26 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Julka/IdeaProjects/dreamjob-master",
+    "last_opened_file_path": "C:/Users/Julka/IdeaProjects/AutoCarMag",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "Errors",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "spring.configuration.checksum": "6c0887ada4d6a6c2d4c8cbd145a70853"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Julka\IdeaProjects\AutoCarMag" />
       <recent name="C:\Users\Julka\IdeaProjects\AutoCarMag\autocarmag\src\main\resources" />
       <recent name="C:\Users\Julka\IdeaProjects\AutoCarMag\autocarmag\src\main\resources\templates" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru" />
     </key>
   </component>
   <component name="RunManager">
@@ -103,7 +165,9 @@
       <workItem from="1673107555688" duration="1251000" />
       <workItem from="1673113920822" duration="5265000" />
       <workItem from="1673119224284" duration="14000" />
-      <workItem from="1673119583875" duration="766000" />
+      <workItem from="1673119583875" duration="5125000" />
+      <workItem from="1674375857705" duration="586000" />
+      <workItem from="1674376454806" duration="3158000" />
     </task>
     <task id="LOCAL-00001" summary="Test Github">
       <created>1673119070268</created>
@@ -140,7 +204,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673120302578</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Test Github">
+      <created>1673120361700</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673120361700</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Test Github">
+      <created>1673120437883</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673120437883</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
